@@ -38,7 +38,7 @@ public class Register extends HttpServlet {
         PrintWriter out = response.getWriter();
 	
         String name = request.getParameter("name");
-        String UID = request.getParameter("email");
+        String UID = request.getParameter("uid");
         String pass = request.getParameter("pass");
         
         try{
@@ -54,8 +54,8 @@ public class Register extends HttpServlet {
                   ("insert into student_employees values(?,?,?)");
 
         ps.setString(1, name);
-        ps.setString(2, UID);
-        ps.setString(3, pass);
+        ps.setString(2, pass);
+        ps.setString(3, UID);
         int i=ps.executeUpdate();
         
           if(i>0)
