@@ -15,7 +15,7 @@ import org.apache.commons.fileupload.disk.DiskFileItemFactory;
 import org.apache.commons.fileupload.servlet.ServletFileUpload;
 import org.apache.commons.io.output.*;
 
-@WebServlet(name = "UploadServlet", urlPatterns = {"/UploadServlet"})
+@WebServlet(name = "UploadServlet", urlPatterns = {"/uploadservlet"})
 
 public class UploadServlet extends HttpServlet {
    

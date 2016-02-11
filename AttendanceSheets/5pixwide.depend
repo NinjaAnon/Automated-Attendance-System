@@ -1,0 +1,12 @@
+# depslib dependency file v1.0
+1453420844 source:c:\temp\delete\prog\5pixwide\5pxwide.c
+	<graphics.h>
+	<stdio.h>
+	<stdlib.h>
+	<math.h>
+
+1266126614 c:\program files (x86)\codeblocks-ep\sdk\winbgim\include\graphics.h
+	<windows.h>
+	<limits.h>
+	<sstream>
+
