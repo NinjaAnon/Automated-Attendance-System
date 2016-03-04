@@ -1,0 +1,63 @@
+class users
+	showhomepage
+        if login tab clicked
+		login():
+		redirect to login page ask for uid and password
+		check uid and password 
+		if correct
+			display userprofilepage
+		if wrong
+			redirect to login page with a error message	
+
+	if register tab clicked 
+		register():
+		redirect to register page display a form asking for email ,password,and user type(attendees and admins) and other requirements
+		check form details
+		if correct
+			make user and update database
+		if wrong
+			redirect to register page and display correct error message
+        
+        check usertype			
+	if attendee
+		showoptions which include see attendance and give attendance
+		if see attendance clicked
+			show his attendance
+		if give attendance clicked
+			show attendance modes(only qr mode available for now later versions may include face recognition )
+			if QR clicked
+				record QR image process and update attendance
+                if update profile clicked
+			display form for updating user details
+       if admin
+	      showoptions which include create attendance sheet, edit attendance sheet,take attendance and update user profile
+	      if create attendancesheet clicked
+			show upload attendance sheet page ask for range of days the month of A.S. -->validate if correct then update the database
+              if edit attendancesheet clicked 
+			show options to update attendance sheet take input validate and update the attendance sheet
+	      if take attendance clicked
+			show attendance sheets available to the admin and prompt for the list of UIDs availabe 	
+              if update profile clicked
+			display form for updating user details
+      if superuser
+              showoptions which include create attendance sheet, edit attendance sheet and :
+	      if create attendancesheet clicked
+			show upload attendance sheet page ask for range of days the month of A.S. -->validate if correct then update the database
+              if edit attendancesheet clicked 
+			show options to update attendance sheet take input validate and update the attendance sheet
+              if update profile clicked
+			display form for updating user details
+              if show users clicked
+                        displaye users and a edit and delete tab
+			if edit clicked
+				show user details and a form which lets su to edit user details--> validate--> if correct update the details in database
+			if delete clicked
+				ask for confirmations if yes clicked delete the user 
+	     if show attendance sheets clicked
+			display all attendance sheets their owners and show edit tabs
+                        if edit attendancesheet clicked 
+				show options to update attendance sheet take input validate and update the attendance sheet	
+
+
+	 
+ 
