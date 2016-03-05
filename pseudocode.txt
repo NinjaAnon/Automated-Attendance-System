@@ -56,7 +56,9 @@ class users
 	     if show attendance sheets clicked
 			display all attendance sheets their owners and show edit tabs
                         if edit attendancesheet clicked 
-				show options to update attendance sheet take input validate and update the attendance sheet	
+				show options to update attendance sheet take input validate and update the attendance sheet
+      if logout clicked
+	     logout the user	
 
 
 	 
